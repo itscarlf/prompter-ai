@@ -4,13 +4,17 @@ import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 
 export const metadata = {
-  title: "Prompter AI",
-  description: "Layout description",
+  title: "Prompter",
+  description: "A place to write and share your AI prompts.",
 };
 
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/assets/images/logo.svg" />
+      </head>
+
       <body>
         <Provider>
           <div className="main">
